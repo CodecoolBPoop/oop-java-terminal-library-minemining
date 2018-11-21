@@ -10,10 +10,10 @@ public enum Color {
     CYAN(36),
     WHITE(37);
 
-    private final String colorCode;
-    Color(String colorCode) {
+    private final int colorCode;
+    Color(int colorCode) {
         this.colorCode = colorCode;
     }
 
-    public String getColor(Color color) {return this.colorCode;}
+    public int getCode() {return this.colorCode;}
 }
