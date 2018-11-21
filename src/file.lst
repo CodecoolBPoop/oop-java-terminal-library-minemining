@@ -1,0 +1,5 @@
+./com/codecool/termlib/Attribute.java
+./com/codecool/termlib/Color.java
+./com/codecool/termlib/Terminal.java
+./com/codecool/termlib/Direction.java
+./com/zsombor/tester/Tester.java
