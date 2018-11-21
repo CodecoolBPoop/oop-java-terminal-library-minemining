@@ -63,6 +63,8 @@ public class Terminal {
      * @param color The color to set.
      */
     public void setColor(Color color) {
+        
+        System.out.println(CONTROL_CODE + Color.getColor(color) + STYLE);
     }
 
     /**

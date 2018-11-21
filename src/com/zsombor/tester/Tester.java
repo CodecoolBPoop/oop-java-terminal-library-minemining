@@ -7,8 +7,8 @@ public class Tester {
         Terminal term = new Terminal();
         System.out.println("asdfasdfasdfasd");
         term.clearScreen();
-        System.out.println("asdfasdfasdfasd");
-		
-	
+        term.setColor(Color.RED);
+        
+        System.out.println("asdfasdfasdfasd");	
 	}
 }
